@@ -1,0 +1,39 @@
+{
+  "version": "v2",
+  "gold_version": "v3",
+  "config_name": "refusal",
+  "n_chunks": 3996,
+  "config": {
+    "gen_model": "claude-sonnet-5",
+    "retrieval": "search_reranked",
+    "k": 20,
+    "n_runs": 3,
+    "reranker": "BAAI/bge-reranker-v2-m3"
+  },
+  "metrics": {
+    "refused": {
+      "1": 19,
+      "2": 19,
+      "3": 19,
+      "mean": 19.0
+    },
+    "refusal_rate": {
+      "1": 0.95,
+      "2": 0.95,
+      "3": 0.95,
+      "mean": 0.95
+    },
+    "false_refused": {
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "mean": 7.0
+    },
+    "false_refusal_rate": {
+      "1": 0.175,
+      "2": 0.175,
+      "3": 0.175,
+      "mean": 0.175
+    }
+  }
+}

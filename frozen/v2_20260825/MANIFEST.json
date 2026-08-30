@@ -1,0 +1,278 @@
+{
+  "tag": "v2_20260825",
+  "frozen_at": "2026-08-25",
+  "what_this_is": "Frozen snapshot of the v2 retrieval run: v2 corpus (header-prepended table serialization + stable chunk_ids), v3 gold (audited minimal gold_chunks), bge-reranker-v2-m3 @ max_length=1024, and query decomposition.",
+  "corpus_version": "v2",
+  "gold_version": "v3",
+  "n_chunks": 3996,
+  "reranker": "BAAI/bge-reranker-v2-m3",
+  "rerank_max_length": 1024,
+  "decomp_model": "claude-haiku-4-5-20251001",
+  "first_stage": 50,
+  "dense_weight": 3.0,
+  "bm25_weight": 1.0,
+  "rrf_k": 60,
+  "environment": {
+    "python": "3.12.5",
+    "torch": "2.13.0+cpu",
+    "sentence_transformers": "6.0.0",
+    "transformers": "5.15.1",
+    "anthropic": "1.0.0",
+    "numpy": "2.5.2",
+    "device": "cpu (no CUDA)"
+  },
+  "runs": {
+    "decomposed": {
+      "config": {
+        "method": "decompose + weighted_rrf + cross-encoder",
+        "decomp_model": "claude-haiku-4-5-20251001",
+        "reranker": "BAAI/bge-reranker-v2-m3",
+        "rerank_max_length": 1024,
+        "first_stage": 50
+      },
+      "metrics": {
+        "n_answerable": 40,
+        "n_hard": 20,
+        "n_easy": 20,
+        "recall@1": 0.375,
+        "recall@1_hits": 15,
+        "easy_recall@1": 0.4,
+        "easy_recall@1_hits": 8,
+        "hard_recall@1": 0.35,
+        "hard_recall@1_hits": 7,
+        "hard_all_gold@1": 0.0,
+        "hard_all_gold@1_hits": 0,
+        "recall@5": 0.675,
+        "recall@5_hits": 27,
+        "easy_recall@5": 0.7,
+        "easy_recall@5_hits": 14,
+        "hard_recall@5": 0.65,
+        "hard_recall@5_hits": 13,
+        "hard_all_gold@5": 0.25,
+        "hard_all_gold@5_hits": 5,
+        "recall@10": 0.825,
+        "recall@10_hits": 33,
+        "easy_recall@10": 0.9,
+        "easy_recall@10_hits": 18,
+        "hard_recall@10": 0.75,
+        "hard_recall@10_hits": 15,
+        "hard_all_gold@10": 0.45,
+        "hard_all_gold@10_hits": 9,
+        "recall@20": 0.95,
+        "recall@20_hits": 38,
+        "easy_recall@20": 0.95,
+        "easy_recall@20_hits": 19,
+        "hard_recall@20": 0.95,
+        "hard_recall@20_hits": 19,
+        "hard_all_gold@20": 0.55,
+        "hard_all_gold@20_hits": 11
+      }
+    },
+    "dense": {
+      "config": {
+        "method": "dense",
+        "model": "BAAI/bge-small-en-v1.5"
+      },
+      "metrics": {
+        "n_answerable": 40,
+        "n_hard": 20,
+        "n_easy": 20,
+        "recall@1": 0.225,
+        "recall@1_hits": 9,
+        "easy_recall@1": 0.25,
+        "easy_recall@1_hits": 5,
+        "hard_recall@1": 0.2,
+        "hard_recall@1_hits": 4,
+        "hard_all_gold@1": 0.0,
+        "hard_all_gold@1_hits": 0,
+        "recall@5": 0.4,
+        "recall@5_hits": 16,
+        "easy_recall@5": 0.45,
+        "easy_recall@5_hits": 9,
+        "hard_recall@5": 0.35,
+        "hard_recall@5_hits": 7,
+        "hard_all_gold@5": 0.1,
+        "hard_all_gold@5_hits": 2,
+        "recall@10": 0.65,
+        "recall@10_hits": 26,
+        "easy_recall@10": 0.7,
+        "easy_recall@10_hits": 14,
+        "hard_recall@10": 0.6,
+        "hard_recall@10_hits": 12,
+        "hard_all_gold@10": 0.25,
+        "hard_all_gold@10_hits": 5,
+        "recall@20": 0.85,
+        "recall@20_hits": 34,
+        "easy_recall@20": 0.95,
+        "easy_recall@20_hits": 19,
+        "hard_recall@20": 0.75,
+        "hard_recall@20_hits": 15,
+        "hard_all_gold@20": 0.4,
+        "hard_all_gold@20_hits": 8
+      }
+    },
+    "hybrid": {
+      "config": {
+        "method": "weighted_rrf",
+        "dense_weight": 3.0,
+        "bm25_weight": 1.0,
+        "rrf_k": 60
+      },
+      "metrics": {
+        "n_answerable": 40,
+        "n_hard": 20,
+        "n_easy": 20,
+        "recall@1": 0.225,
+        "recall@1_hits": 9,
+        "easy_recall@1": 0.25,
+        "easy_recall@1_hits": 5,
+        "hard_recall@1": 0.2,
+        "hard_recall@1_hits": 4,
+        "hard_all_gold@1": 0.0,
+        "hard_all_gold@1_hits": 0,
+        "recall@5": 0.425,
+        "recall@5_hits": 17,
+        "easy_recall@5": 0.55,
+        "easy_recall@5_hits": 11,
+        "hard_recall@5": 0.3,
+        "hard_recall@5_hits": 6,
+        "hard_all_gold@5": 0.15,
+        "hard_all_gold@5_hits": 3,
+        "recall@10": 0.65,
+        "recall@10_hits": 26,
+        "easy_recall@10": 0.7,
+        "easy_recall@10_hits": 14,
+        "hard_recall@10": 0.6,
+        "hard_recall@10_hits": 12,
+        "hard_all_gold@10": 0.15,
+        "hard_all_gold@10_hits": 3,
+        "recall@20": 0.875,
+        "recall@20_hits": 35,
+        "easy_recall@20": 0.95,
+        "easy_recall@20_hits": 19,
+        "hard_recall@20": 0.8,
+        "hard_recall@20_hits": 16,
+        "hard_all_gold@20": 0.4,
+        "hard_all_gold@20_hits": 8
+      }
+    },
+    "rerank": {
+      "config": {
+        "method": "weighted_rrf + cross-encoder",
+        "reranker": "BAAI/bge-reranker-v2-m3",
+        "rerank_max_length": 1024,
+        "first_stage": 50
+      },
+      "metrics": {
+        "n_answerable": 40,
+        "n_hard": 20,
+        "n_easy": 20,
+        "recall@1": 0.3,
+        "recall@1_hits": 12,
+        "easy_recall@1": 0.4,
+        "easy_recall@1_hits": 8,
+        "hard_recall@1": 0.2,
+        "hard_recall@1_hits": 4,
+        "hard_all_gold@1": 0.0,
+        "hard_all_gold@1_hits": 0,
+        "recall@5": 0.575,
+        "recall@5_hits": 23,
+        "easy_recall@5": 0.7,
+        "easy_recall@5_hits": 14,
+        "hard_recall@5": 0.45,
+        "hard_recall@5_hits": 9,
+        "hard_all_gold@5": 0.05,
+        "hard_all_gold@5_hits": 1,
+        "recall@10": 0.775,
+        "recall@10_hits": 31,
+        "easy_recall@10": 0.9,
+        "easy_recall@10_hits": 18,
+        "hard_recall@10": 0.65,
+        "hard_recall@10_hits": 13,
+        "hard_all_gold@10": 0.15,
+        "hard_all_gold@10_hits": 3,
+        "recall@20": 0.85,
+        "recall@20_hits": 34,
+        "easy_recall@20": 0.95,
+        "easy_recall@20_hits": 19,
+        "hard_recall@20": 0.75,
+        "hard_recall@20_hits": 15,
+        "hard_all_gold@20": 0.25,
+        "hard_all_gold@20_hits": 5
+      }
+    }
+  },
+  "provenance": {
+    "corpus": "all_chunks_v2.jsonl regenerates byte-identically from src/filings_rag/sec_chunking.py (text + chunk_id verified)",
+    "gold": "gold_set_60_v3.jsonl = v2 gold with over-specified split-table refs removed; 3 questions changed, 4 refs dropped",
+    "rerank_cache": "81 queries = 40 answerable originals + 41 answerable sub-queries; ~95 min CPU to rebuild",
+    "decomp_cache": "60 decompositions, keyed on question text; corpus-independent",
+    "known_issues": [
+      "q036 sub-queries say 'most recent/prior fiscal year' - ambiguous across the 3 NVIDIA filings in the corpus",
+      "q037 sub-queries say '2023 10-K' - wrong year, inert here since the corpus has no FY2023 for those companies",
+      "206/840 tables fell back to pipe serialization (no usable column labels); 23 oversized-label, 1 numeric-guard"
+    ]
+  },
+  "files": {
+    "results/v2_dense.json": {
+      "frozen_as": "results/v2_dense.json",
+      "bytes": 1185,
+      "sha256": "8ca20d78a9193310d329453c80a1b66e25c83b94fdf8f254703fe2f0d83e03fd"
+    },
+    "results/v2_hybrid.json": {
+      "frozen_as": "results/v2_hybrid.json",
+      "bytes": 1225,
+      "sha256": "f47b0db5ae7b0c7e77ccbaa529d1d0d3e9e10f4bc0ea13ff24eaae1b728cb707"
+    },
+    "results/v2_rerank.json": {
+      "frozen_as": "results/v2_rerank.json",
+      "bytes": 1273,
+      "sha256": "9cf9e3c7efbafd73ad0abb0b77f9b26859a2f4c2786d85e6bd391904c5d14fb2"
+    },
+    "results/v2_decomposed.json": {
+      "frozen_as": "results/v2_decomposed.json",
+      "bytes": 1344,
+      "sha256": "1cef04eb0faab879e477ec274c7ce88cb17e079cc005e0bb562a4af16316bc9f"
+    },
+    "data/gold/gold_set_60_v3.jsonl": {
+      "frozen_as": "gold/gold_set_60_v3.jsonl",
+      "bytes": 12494,
+      "sha256": "770f80a1774da4b9c8a5684ade316415ec893e491c5847cd2eeeb424471ed386"
+    },
+    "data/gold/all_chunks_v2.jsonl": {
+      "frozen_as": "gold/all_chunks_v2.jsonl",
+      "bytes": 5205974,
+      "sha256": "25449e2d785ac78d6ef1dcefa797ba662cd2763ab98f755033b0fbd215ed2861"
+    },
+    "data/processed/all_chunks_v2.pkl": {
+      "frozen_as": "processed/all_chunks_v2.pkl",
+      "bytes": 5115744,
+      "sha256": "c6c24ea7957f7c4241b617843678726382ff734771fd44ca475a0913fc513bcc"
+    },
+    "data/processed/embeddings_v2.npy": {
+      "frozen_as": "processed/embeddings_v2.npy",
+      "bytes": 6137984,
+      "sha256": "f109a9157b4ca42511fcfa79297aad80b2ccd323e20db960376f1015104df4e8"
+    },
+    "data/processed/rerank_cache_v2_bge-reranker-v2-m3.pkl": {
+      "frozen_as": "processed/rerank_cache_v2_bge-reranker-v2-m3.pkl",
+      "bytes": 149809,
+      "sha256": "09f80a9985134797d4a898a3e41b25b503a379952ada9a87dd59c2879220ae10"
+    },
+    "data/processed/decomp_cache.pkl": {
+      "frozen_as": "processed/decomp_cache.pkl",
+      "bytes": 11883,
+      "sha256": "3354e95c6303dedfcb1cf12e779d85eb15eff52ea7631cd443713265ad7e59aa"
+    },
+    "notebooks/evaluate.ipynb": {
+      "frozen_as": "code/evaluate.ipynb",
+      "bytes": 73397,
+      "sha256": "b1eb3d68bf6ed02c1961796ad749870b55aa0ed879645ca3dfa8bd76515c480c"
+    },
+    "src/filings_rag/sec_chunking.py": {
+      "frozen_as": "code/sec_chunking.py",
+      "bytes": 50121,
+      "sha256": "0e4b5fa35db63ad7edbc0420c061d1f02bfc3fb50ef71189812692841c5d7c93"
+    }
+  }
+}

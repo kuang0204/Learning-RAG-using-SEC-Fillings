@@ -1,0 +1,817 @@
+[
+  {
+    "id": "q001",
+    "type": "easy",
+    "question": "What was Apple's total net sales for fiscal year 2025?",
+    "gold": "$416,161 million",
+    "pred": "Apple's total net sales for fiscal year 2025 were $416,161 million (approximately $416.2 billion).",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "416161"
+    ],
+    "pred_nums": [
+      "2025",
+      "416.2",
+      "416161"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q002",
+    "type": "easy",
+    "question": "As of September 27, 2025, approximately how many full-time equivalent employees did Apple have?",
+    "gold": "approximately 166,000 full-time equivalent employees",
+    "pred": "Approximately 166,000 full-time equivalent employees.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "166000"
+    ],
+    "pred_nums": [
+      "166000"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q003",
+    "type": "easy",
+    "question": "As of December 31, 2025, approximately how many full-time and part-time employees did Amazon have?",
+    "gold": "approximately 1,576,000 employees",
+    "pred": "Approximately 1,576,000 full-time and part-time employees.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "1576000"
+    ],
+    "pred_nums": [
+      "1576000"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q004",
+    "type": "easy",
+    "question": "What was Amazon's total net sales for fiscal year 2025?",
+    "gold": "$716,924 million",
+    "pred": "Amazon's total net sales for fiscal year 2025 were $716,924 million (approximately $716.9 billion).",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "716924"
+    ],
+    "pred_nums": [
+      "2025",
+      "716.9",
+      "716924"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q005",
+    "type": "easy",
+    "question": "What are the three operating segments Amazon uses to organize its business?",
+    "gold": "North America, International, and Amazon Web Services (AWS)",
+    "pred": "North America, International, and Amazon Web Services (AWS).",
+    "answerable": true,
+    "num_match": false,
+    "gold_nums": [],
+    "pred_nums": [],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q006",
+    "type": "easy",
+    "question": "What was Dell Technologies' total net revenue for fiscal year 2026 (ended January 30, 2026)?",
+    "gold": "$113,538 million",
+    "pred": "$113,538 million (approximately $113.5 billion) for fiscal year 2026, ended January 30, 2026.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "113538"
+    ],
+    "pred_nums": [
+      "113.5",
+      "113538",
+      "2026",
+      "30"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q007",
+    "type": "easy",
+    "question": "As of January 30, 2026, approximately how many employees did Dell Technologies have?",
+    "gold": "97,000 employees",
+    "pred": "Approximately 97,000 employees as of January 30, 2026.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "97000"
+    ],
+    "pred_nums": [
+      "2026",
+      "30",
+      "97000"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q008",
+    "type": "easy",
+    "question": "What are Dell Technologies' two reportable business segments?",
+    "gold": "Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG)",
+    "pred": "Dell Technologies' two reportable segments are the Infrastructure Solutions Group (ISG) and the Client Solutions Group (CSG).",
+    "answerable": true,
+    "num_match": false,
+    "gold_nums": [],
+    "pred_nums": [],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q009",
+    "type": "easy",
+    "question": "What were Alphabet's total revenues for fiscal year 2025?",
+    "gold": "$402,836 million",
+    "pred": "Alphabet's total revenues for fiscal year 2025 were $402,836 million (approximately $402.8 billion).",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "402836"
+    ],
+    "pred_nums": [
+      "2025",
+      "402.8",
+      "402836"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q010",
+    "type": "easy",
+    "question": "As of December 31, 2025, how many employees did Alphabet have?",
+    "gold": "190,820 employees",
+    "pred": "190,820 employees",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "190820"
+    ],
+    "pred_nums": [
+      "190820"
+    ],
+    "gold_in_top20": false,
+    "any_gold_in_top20": false
+  },
+  {
+    "id": "q011",
+    "type": "easy",
+    "question": "As of December 31, 2025, what was the size of Meta's global workforce?",
+    "gold": "78,865 employees",
+    "pred": "78,865 employees as of December 31, 2025",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "78865"
+    ],
+    "pred_nums": [
+      "2025",
+      "31",
+      "78865"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q012",
+    "type": "easy",
+    "question": "What was Meta's total revenue for fiscal year 2025?",
+    "gold": "$200,966 million",
+    "pred": "Meta's total revenue for fiscal year 2025 was $200.966 billion (approximately $200.97 billion), a 22% increase compared to 2024.",
+    "answerable": true,
+    "num_match": false,
+    "gold_nums": [
+      "200966"
+    ],
+    "pred_nums": [
+      "200.966",
+      "200.97",
+      "2024",
+      "2025",
+      "22"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q013",
+    "type": "easy",
+    "question": "What was Microsoft's total revenue for fiscal year 2026 (ended June 30, 2026)?",
+    "gold": "$331,839 million",
+    "pred": "Microsoft's total revenue for fiscal year 2026 (ended June 30, 2026) was $331,839 million (approximately $331.8 billion).",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "331839"
+    ],
+    "pred_nums": [
+      "2026",
+      "30",
+      "331.8",
+      "331839"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q014",
+    "type": "easy",
+    "question": "As of June 30, 2026, approximately how many people did Microsoft employ on a full-time basis?",
+    "gold": "223,000 employees",
+    "pred": "Approximately 223,000 people, with 121,000 in the U.S. and 102,000 internationally.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "223000"
+    ],
+    "pred_nums": [
+      "102000",
+      "121000",
+      "223000"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q015",
+    "type": "easy",
+    "question": "What are Microsoft's three reportable operating segments?",
+    "gold": "Productivity and Business Processes, Intelligent Cloud, and More Personal Computing",
+    "pred": "Microsoft's three reportable operating segments are Productivity and Business Processes, Intelligent Cloud, and More Personal Computing.",
+    "answerable": true,
+    "num_match": false,
+    "gold_nums": [],
+    "pred_nums": [],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q016",
+    "type": "easy",
+    "question": "What was NVIDIA's total revenue for fiscal year 2024 (ended January 28, 2024)?",
+    "gold": "$60,922 million",
+    "pred": "NVIDIA's total revenue for fiscal year 2024 (ended January 28, 2024) was $60,922 million (approximately $60.9 billion), up 126% from fiscal year 2023.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "60922"
+    ],
+    "pred_nums": [
+      "126",
+      "2023",
+      "2024",
+      "28",
+      "60.9",
+      "60922"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q017",
+    "type": "easy",
+    "question": "What was NVIDIA's total revenue for fiscal year 2025 (ended January 26, 2025)?",
+    "gold": "$130,497 million",
+    "pred": "NVIDIA's total revenue for fiscal year 2025 (ended January 26, 2025) was $130,497 million (approximately $130.5 billion), up 114% from fiscal year 2024.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "130497"
+    ],
+    "pred_nums": [
+      "114",
+      "130.5",
+      "130497",
+      "2024",
+      "2025",
+      "26"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q018",
+    "type": "easy",
+    "question": "What was NVIDIA's total revenue for fiscal year 2026 (ended January 25, 2026)?",
+    "gold": "$215,938 million",
+    "pred": "NVIDIA's total revenue for fiscal year 2026 (ended January 25, 2026) was $215,938 million (approximately $215.9 billion), up 65% from fiscal year 2025.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "215938"
+    ],
+    "pred_nums": [
+      "2025",
+      "2026",
+      "215.9",
+      "215938",
+      "25",
+      "65"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q019",
+    "type": "easy",
+    "question": "What was Palantir's total revenue for fiscal year 2025?",
+    "gold": "$4,475,446 thousand",
+    "pred": "Palantir's total revenue for fiscal year 2025 was $4,475,446 thousand (approximately $4.5 billion), up 56% from $2,865,507 thousand in 2024.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "4475446"
+    ],
+    "pred_nums": [
+      "2024",
+      "2025",
+      "2865507",
+      "4.5",
+      "4475446",
+      "56"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q020",
+    "type": "easy",
+    "question": "What are the names of Palantir's four principal software platforms?",
+    "gold": "Gotham, Foundry, Apollo, and AIP",
+    "pred": "Palantir Gotham (Gotham), Palantir Foundry (Foundry), Palantir Apollo (Apollo), and their Artificial Intelligence Platform (AIP).",
+    "answerable": true,
+    "num_match": false,
+    "gold_nums": [],
+    "pred_nums": [],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q021",
+    "type": "hard",
+    "question": "How much did NVIDIA's total revenue grow in dollar terms from fiscal year 2024 to fiscal year 2026?",
+    "gold": "NVIDIA's total revenue grew by $155,016 million, from $60,922 million in FY2024 to $215,938 million in FY2026.",
+    "pred": "NVIDIA's total revenue grew from $60,922 million (FY2024) to $215,938 million (FY2026), an increase of $155,016 million (approximately $155.0 billion).",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "155016",
+      "2024",
+      "2026",
+      "215938",
+      "60922"
+    ],
+    "pred_nums": [
+      "155.0",
+      "155016",
+      "2024",
+      "2026",
+      "215938",
+      "60922"
+    ],
+    "gold_in_top20": false,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q022",
+    "type": "hard",
+    "question": "How did NVIDIA's total employee headcount change from the end of fiscal year 2024 to the end of fiscal year 2026?",
+    "gold": "NVIDIA's headcount increased from approximately 29,600 employees (FY2024) to approximately 42,000 employees (FY2026)",
+    "pred": "The excerpts only provide NVIDIA's total employee headcount for fiscal year 2026 (approximately 42,000 employees). No employee headcount figure for fiscal year 2024 is included in the excerpts, so the change from FY2024 to FY2026 cannot be determined.",
+    "answerable": false,
+    "num_match": false,
+    "gold_nums": [
+      "2024",
+      "2026",
+      "29600",
+      "42000"
+    ],
+    "pred_nums": [
+      "2024",
+      "2026",
+      "42000"
+    ],
+    "gold_in_top20": false,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q023",
+    "type": "hard",
+    "question": "Between Meta's fiscal year 2025 and NVIDIA's fiscal year 2026, which company reported higher total revenue?",
+    "gold": "NVIDIA reported higher total revenue: NVIDIA FY2026 total revenue was $215,938 million, compared to Meta FY2025 total revenue of $200,966 million.",
+    "pred": "NVIDIA reported higher total revenue in its fiscal year 2026 ($215.938 billion) compared to Meta's fiscal year 2025 total revenue ($200.966 billion).",
+    "answerable": true,
+    "num_match": false,
+    "gold_nums": [
+      "200966",
+      "2025",
+      "2026",
+      "215938"
+    ],
+    "pred_nums": [
+      "200.966",
+      "2025",
+      "2026",
+      "215.938"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q024",
+    "type": "hard",
+    "question": "For fiscal year 2025, which company reported higher total net sales: Apple or Amazon?",
+    "gold": "Amazon reported higher total net sales in FY2025: Amazon $716,924 million vs Apple $416,161 million",
+    "pred": "Amazon reported higher total net sales in FY2025 ($716,924 million) compared to Apple ($416,161 million).",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "2025",
+      "416161",
+      "716924"
+    ],
+    "pred_nums": [
+      "2025",
+      "416161",
+      "716924"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q025",
+    "type": "hard",
+    "question": "Which company had more employees: Alphabet (as of December 31, 2025) or Microsoft (as of June 30, 2026)?",
+    "gold": "Microsoft had more employees: Microsoft had approximately 223,000 employees vs. Alphabet's 190,820 employees.",
+    "pred": "Microsoft had more employees (approximately 223,000 as of June 30, 2026) than Alphabet (190,820 as of December 31, 2025).",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "190820",
+      "223000"
+    ],
+    "pred_nums": [
+      "190820",
+      "2025",
+      "2026",
+      "223000",
+      "30",
+      "31"
+    ],
+    "gold_in_top20": false,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q026",
+    "type": "hard",
+    "question": "Approximately how many times larger is NVIDIA's fiscal year 2026 employee headcount than Palantir's employee headcount as of December 31, 2025?",
+    "gold": "NVIDIA's headcount is approximately 9.5 times larger than Palantir's (NVIDIA: approximately 42,000 employees vs. Palantir: 4,429 full-time employees).",
+    "pred": "About 9.5 times larger (NVIDIA ~42,000 employees vs. Palantir 4,429 full-time employees).",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "42000",
+      "4429",
+      "9.5"
+    ],
+    "pred_nums": [
+      "42000",
+      "4429",
+      "9.5"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q027",
+    "type": "hard",
+    "question": "Do Dell Technologies and NVIDIA use the same independent registered public accounting firm?",
+    "gold": "Yes, both Dell Technologies and NVIDIA use PricewaterhouseCoopers LLP",
+    "pred": "The excerpts confirm Dell Technologies' auditor is PricewaterhouseCoopers LLP (per Exhibit 23.1), but they do not state the name of NVIDIA's independent registered public accounting firm\u2014only the generic report heading is shown without identifying the firm. Therefore, a direct comparison cannot be made from the given excerpts.",
+    "answerable": false,
+    "num_match": false,
+    "gold_nums": [],
+    "pred_nums": [
+      "23.1"
+    ],
+    "gold_in_top20": false,
+    "any_gold_in_top20": false
+  },
+  {
+    "id": "q028",
+    "type": "hard",
+    "question": "Do Microsoft and Apple use the same independent registered public accounting firm?",
+    "gold": "No. Apple's auditor is Ernst & Young LLP; Microsoft's auditor is Deloitte & Touche LLP.",
+    "pred": "No. Apple's independent registered public accounting firm is Ernst & Young LLP (PCAOB Firm ID No. 000 42), while Microsoft's is Deloitte & Touche LLP (PCAOB ID No. 34).",
+    "answerable": true,
+    "num_match": false,
+    "gold_nums": [],
+    "pred_nums": [
+      "000",
+      "34",
+      "42"
+    ],
+    "gold_in_top20": false,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q029",
+    "type": "hard",
+    "question": "For fiscal year 2025, which company reported higher capital expenditures: Alphabet or Meta?",
+    "gold": "Alphabet reported higher capital expenditures: $91.4 billion vs Meta's $72.22 billion",
+    "pred": "Alphabet reported higher capital expenditures for fiscal year 2025, at $91.4 billion, compared to Meta's $72.22 billion (including principal payments on finance leases).",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "72.22",
+      "91.4"
+    ],
+    "pred_nums": [
+      "2025",
+      "72.22",
+      "91.4"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q030",
+    "type": "hard",
+    "question": "Which company reported higher research and development expense in its most recent fiscal year: Apple (FY2025) or Microsoft (FY2026)?",
+    "gold": "Microsoft (FY2026) reported higher R&D expense: $35,562 million vs Apple's $34,550 million (FY2025).",
+    "pred": "Microsoft reported higher R&D expense in its most recent fiscal year: $35,562 million in FY2026, compared to Apple's $34,550 million in FY2025.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "2025",
+      "2026",
+      "34550",
+      "35562"
+    ],
+    "pred_nums": [
+      "2025",
+      "2026",
+      "34550",
+      "35562"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q031",
+    "type": "hard",
+    "question": "In Meta's FY2025 10-K, what share of total revenue did Reality Labs generate, and how does that compare to the share of total costs and expenses it accounted for?",
+    "gold": "Reality Labs generated about 1.1% of total revenue ($2,207 million of $200,966 million) but accounted for 18% of total costs and expenses \u2014 costs share far exceeds revenue share.",
+    "pred": "Reality Labs generated only about 1.1% of Meta's total FY2025 revenue ($2,207M of $200,966M), but it accounted for 18% of total costs and expenses ($21,400M of $117,690M, as stated directly in the filing). This mismatch\u2014tiny revenue share but a much larger cost share\u2014reflects RL's large operating loss ($19,193M) and its heavy investment relative to the revenue it generates, compared to Family of A",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "1.1",
+      "18",
+      "200966",
+      "2207"
+    ],
+    "pred_nums": [
+      "1.1",
+      "117690",
+      "18",
+      "19193",
+      "200966",
+      "2025",
+      "21400",
+      "2207"
+    ],
+    "gold_in_top20": false,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q032",
+    "type": "hard",
+    "question": "How does Palantir's Total Remaining Deal Value as of December 31, 2025 compare to its fiscal year 2025 total revenue?",
+    "gold": "Total Remaining Deal Value ($11.2 billion) exceeds FY2025 total revenue ($4,475,446 thousand, i.e. ~$4.48 billion)",
+    "pred": "As of December 31, 2025, Palantir's Total Remaining Deal Value was $11.2 billion, compared to FY2025 total revenue of $4.475 billion (approximately $4.5 billion). This means the Total Remaining Deal Value was about 2.5 times greater than the company's total revenue for fiscal year 2025.",
+    "answerable": true,
+    "num_match": false,
+    "gold_nums": [
+      "11.2",
+      "2025",
+      "4.48",
+      "4475446"
+    ],
+    "pred_nums": [
+      "11.2",
+      "2.5",
+      "2025",
+      "31",
+      "4.475",
+      "4.5"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q033",
+    "type": "hard",
+    "question": "Within Apple's FY2025 10-K, did the Americas segment or the iPhone product category grow faster year-over-year?",
+    "gold": "Americas segment grew faster (7%) than iPhone (4%)",
+    "pred": "The Americas segment grew faster year-over-year: Americas net sales grew 7% (from $167,045M to $178,353M), while iPhone net sales grew 4% (from $201,183M to $209,586M).",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "4",
+      "7"
+    ],
+    "pred_nums": [
+      "167045",
+      "178353",
+      "201183",
+      "209586",
+      "4",
+      "7"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q034",
+    "type": "hard",
+    "question": "Given that one customer represented 22% of NVIDIA's total revenue in fiscal year 2026, approximately how much revenue in dollars did that customer represent?",
+    "gold": "approximately $47,506 million",
+    "pred": "Approximately $47.5 billion (22% of FY2026 total revenue of $215,938 million).",
+    "answerable": true,
+    "num_match": false,
+    "gold_nums": [
+      "47506"
+    ],
+    "pred_nums": [
+      "2026",
+      "215938",
+      "22",
+      "47.5"
+    ],
+    "gold_in_top20": false,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q035",
+    "type": "hard",
+    "question": "How does Amazon's First Quarter 2026 net sales growth guidance compare with its fiscal year 2025 actual net sales growth rate?",
+    "gold": "<<EXTRACTION FAILED: Unterminated string starting at: line 1 column 12 (char 11)>>",
+    "pred": "Amazon's Q1 2026 guidance projects net sales growth of 11% to 15% year-over-year (compared with Q1 2025), which is roughly in line with or slightly above the 12% net sales growth actually achieved for full fiscal year 2025 compared to 2024.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "1",
+      "11",
+      "12"
+    ],
+    "pred_nums": [
+      "1",
+      "11",
+      "12",
+      "15",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q036",
+    "type": "hard",
+    "question": "In their most recent fiscal years reported here, which grew faster year-over-year: Palantir's total revenue or NVIDIA's total revenue?",
+    "gold": "NVIDIA's total revenue grew faster year-over-year, increasing 65% (to $215,938 million) compared to Palantir's total revenue growth of 56% (to $4,475,446 million).",
+    "pred": "NVIDIA's revenue grew faster. In its most recent fiscal year (FY2026, ended Jan 25, 2026), NVIDIA's total revenue rose from $130,497 million to $215,938 million, an increase of about 65.5%. Palantir's total revenue for FY2025 grew 56% year-over-year, from $2,865,507 thousand to $4,475,446 thousand.",
+    "answerable": true,
+    "num_match": false,
+    "gold_nums": [
+      "215938",
+      "4475446",
+      "56",
+      "65"
+    ],
+    "pred_nums": [
+      "130497",
+      "2025",
+      "2026",
+      "215938",
+      "25",
+      "2865507",
+      "4475446",
+      "56",
+      "65.5"
+    ],
+    "gold_in_top20": false,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q037",
+    "type": "hard",
+    "question": "Does Amazon alone have more employees than Apple and Meta combined?",
+    "gold": "Yes, Amazon alone (approximately 1,576,000 employees) has more employees than Apple (approximately 166,000) and Meta (78,865) combined (244,865).",
+    "pred": "Yes. Amazon had approximately 1,576,000 employees as of December 31, 2025, while Apple had approximately 166,000 full-time equivalent employees (as of September 27, 2025) and Meta had 78,865 employees (as of December 31, 2025), totaling about 244,865 combined \u2014 far fewer than Amazon's headcount alone.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "1576000",
+      "166000",
+      "244865",
+      "78865"
+    ],
+    "pred_nums": [
+      "1576000",
+      "166000",
+      "2025",
+      "244865",
+      "27",
+      "31",
+      "78865"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q038",
+    "type": "hard",
+    "question": "How many reportable business segments does Dell Technologies report, compared to Microsoft?",
+    "gold": "Microsoft reports more segments: Dell has 2 reportable segments (ISG and CSG), while Microsoft has 3 (Productivity and Business Processes, Intelligent Cloud, and More Personal Computing).",
+    "pred": "Dell Technologies reports 2 reportable segments: Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG). Microsoft reports 3 reportable segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "2",
+      "3"
+    ],
+    "pred_nums": [
+      "2",
+      "3"
+    ],
+    "gold_in_top20": false,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q039",
+    "type": "hard",
+    "question": "In Dell's fiscal year 2026 10-K, did the Infrastructure Solutions Group segment grow faster or slower than Dell's total consolidated net revenue?",
+    "gold": "ISG grew faster: ISG net revenue increased 40%, compared to Dell's total consolidated net revenue growth of 19%.",
+    "pred": "ISG grew faster: ISG net revenue increased 40% in Fiscal 2026, compared to Dell's total consolidated net revenue growth of 19%.",
+    "answerable": true,
+    "num_match": true,
+    "gold_nums": [
+      "19",
+      "40"
+    ],
+    "pred_nums": [
+      "19",
+      "2026",
+      "40"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  },
+  {
+    "id": "q040",
+    "type": "hard",
+    "question": "Which company had a higher gross margin percentage in its most recent fiscal year: Apple (FY2025) or Dell (FY2026)?",
+    "gold": "Apple had a higher gross margin percentage in FY2025 (46.9%, calculated as $195,201 million / $416,161 million) compared to Dell's 20.0% in FY2026.",
+    "pred": "Apple had a higher gross margin percentage in its most recent fiscal year (FY2025): 46.9%, compared to Dell's FY2026 gross margin of 20.0%.",
+    "answerable": true,
+    "num_match": false,
+    "gold_nums": [
+      "195201",
+      "20.0",
+      "2025",
+      "2026",
+      "416161",
+      "46.9"
+    ],
+    "pred_nums": [
+      "20.0",
+      "2025",
+      "2026",
+      "46.9"
+    ],
+    "gold_in_top20": true,
+    "any_gold_in_top20": true
+  }
+]

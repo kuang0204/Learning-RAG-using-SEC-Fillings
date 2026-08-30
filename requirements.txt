@@ -1,0 +1,23 @@
+# Pinned to what produced results/v2_*.json. sentence-transformers, torch and
+# transformers pin the retrieval numbers; changing them can move embeddings or
+# cross-encoder scores and therefore the archived metrics.
+anthropic==1.0.0
+beautifulsoup4==4.15.0
+lxml==6.1.2
+numpy==2.5.2
+pandas==3.0.5
+python-dotenv==1.2.3
+rank-bm25==0.2.2
+scikit-learn==1.9.0
+sentence-transformers==6.0.0
+torch==2.13.0
+transformers==5.15.1
+
+# corpus construction (notebooks/parsing_chunking)
+pymupdf==1.28.2
+jupyter==1.1.1
+
+# Postgres backend. NOT installed in the current .venv - the numpy backend needs
+# neither. Install these before FR_BACKEND=postgres.
+psycopg[binary]==3.2.3
+pgvector==0.3.6
