@@ -1,6 +1,6 @@
 A RAG system over 10 SEC 10-K filings (Apple, Amazon, Dell, Alphabet, Meta, Microsoft, NVIDIA FY24/25/26, Palantir).
 
-Full write-up: RAG_REPORT_LEARNINGS.html
+Full write-up: rag_report_learnings.html or notebooks/evalaute.ipynb
 
 This project is used to teach myself RAG so it is a walkthrough implementing enhancement by enhancement to see each effect live. 
 The goal is to see the theory in practice, rather than building the whole pipeline at once.
